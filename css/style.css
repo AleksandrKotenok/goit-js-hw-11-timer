@@ -1,0 +1,24 @@
+.timer{
+   display: flex;
+   justify-content: center;
+   margin-top: 250px;
+}
+.field{
+   border: 1px;
+   border-color: black; 
+   border-style: solid;
+   padding: 10px 15px 10px 15px;
+   min-width: 200px;
+}
+.field:not(:last-child){
+   margin-right: 20px;
+}
+.value,.label{
+   display: block;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size:36px;
+   font-weight: bold;
+   
+   
+}
