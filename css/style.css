@@ -1,7 +1,15 @@
+h1,h2,h3{
+   font-family: 'Pacifico', cursive;
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   color:tomato;
+   font-weight: bold;
+}
 .timer{
    display: flex;
    justify-content: center;
-   margin-top: 250px;
+   margin-top: 20px;
 }
 .field{
    border: 1px;
@@ -13,12 +21,30 @@
 .field:not(:last-child){
    margin-right: 20px;
 }
-.value,.label{
+.value{
+   color:purple;
    display: block;
    text-align: center;
-   font-family: 'Courier New', Courier, monospace;
    font-size:36px;
+   font-family: 'Pacifico', cursive;
    font-weight: bold;
-   
-   
+}
+.label{
+   display: block;
+   text-align: center;
+   font-family: 'Pacifico', cursive;
+   font-size:22px;
+   font-weight:100;
+}
+.button{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+.button__timer:not(:last-child){
+   margin-right: 20px;
+}
+.button__timer{
+   min-width: 100px;
+   min-height: 50px;
 }
